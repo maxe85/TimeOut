@@ -1,0 +1,18 @@
+###########################################
+# Syntax Coloring Map For TimOut by Maxe
+###########################################
+
+###########################################
+# Datatypes (KEYWORD1)
+###########################################
+
+TimeOut	KEYWORD1
+
+###########################################
+# Methods and Functions (KEYWORD2)
+###########################################
+check	KEYWORD2
+remain	KEYWORD2
+reset	KEYWORD2
+proceed	KEYWORD2
+stop	KEYWORD2
