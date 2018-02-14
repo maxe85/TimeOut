@@ -1,3 +1,8 @@
+//#define TIMEOUT_SET_MICROS
+#define DEBUG_MODE false
+
+
+
 #ifndef TIMEOUT
 #define TIMEOUT
 
@@ -7,7 +12,7 @@
 class TimeOut {
   public:
 	TimeOut();
-    TimeOut(uint16_t limit);// initializes timeout from now with the limit in milliseconds
+    TimeOut(uint32_t limit);// initializes timeout from now with the limit in milliseconds
     boolean check();		// returns false if timeout is still running, tru if timeout (false if timeout is not set)
 	uint32_t remain();		// retruns the remaining milliseconds
     uint32_t reset();		// resets the start time
