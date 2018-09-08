@@ -1,4 +1,4 @@
 # TimeOut
-timeout library for arduino created by maxe85
+Arduino library to use timeouts depending on millis() by maxe85
 
-watch the HowToUse example for all methodes
+watch the HowToUse example for more
